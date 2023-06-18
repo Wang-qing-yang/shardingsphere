@@ -738,6 +738,26 @@
         <assertion expected-data-file="select_postgresql_pg_catalog_pg_attrdef.xml" />
     </test-case>
 
+    <test-case sql="SELECT * FROM pg_catalog.pg_largeobject" db-types="PostgreSQL" scenario-types="db">
+        <assertion expected-data-file="select_postgresql_pg_catalog_pg_largeobject.xml" />
+    </test-case>
+
+    <test-case sql="SELECT * FROM pg_catalog.pg_largeobject_metadata" db-types="PostgreSQL" scenario-types="db">
+        <assertion expected-data-file="select_postgresql_pg_catalog_pg_largeobject_metadata.xml" />
+    </test-case>
+
+    <test-case sql="SELECT * FROM pg_catalog.pg_opclass" db-types="PostgreSQL" scenario-types="db">
+        <assertion expected-data-file="select_postgresql_pg_catalog_pg_opclass.xml" />
+    </test-case>
+
+    <test-case sql="SELECT * FROM pg_catalog.pg_operator" db-types="PostgreSQL" scenario-types="db">
+        <assertion expected-data-file="select_postgresql_pg_catalog_pg_operator.xml" />
+    </test-case>
+
+    <test-case sql="SELECT * FROM pg_catalog.pg_opfamily" db-types="PostgreSQL" scenario-types="db">
+        <assertion expected-data-file="select_postgresql_pg_catalog_pg_opfamily.xml" />
+    </test-case>
+
     <test-case sql="SELECT * FROM pg_catalog.pg_range" db-types="PostgreSQL" scenario-types="db">
         <assertion expected-data-file="select_postgresql_pg_catalog_pg_range.xml" />
     </test-case>
